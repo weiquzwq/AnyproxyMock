@@ -1,0 +1,12 @@
+{
+"checkVersionAndLogin":
+	{"status" : 202,"headers" :{"content-type" : " text/x-json;charset=UTF-8"},"body": {"code":"你已经被mock了","messages":[{"abc":"ERROR","summary":"byTerry"}]}},
+"Login":
+	{"status" : 203,"headers" :{"content-type" : " text/x-json;charset=UTF-8"},"body": {"code":"FA_Apple","messages":[{"abc":"ERROR","summary":"byTerry"}]}},
+"startLottery":
+	{"status" : 200,"headers" :{"content-type" : " text/x-json;charset=UTF-8"},"body": {"code":"S_OK","var":{"prize_level":1}}}	,
+"cim.msg%3Areply":
+	{"status" : 202,"headers" :{"content-type" : " text/x-json;charset=UTF-8"},"body": {"code":"FA_OVERFLOW","var":{}}},
+"setFlag":
+	{"status" : 202,"headers" :{"content-type" : " text/x-json;charset=UTF-8"},"body": {"code":"FA_FORBIDDEN","var":{}}}
+} 
